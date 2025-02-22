@@ -13,8 +13,8 @@ def get_top_output():
 
 @app.route('/htop')
 def htop():
-    name = "Your Full Name"  # Replace with your actual name
-    username = os.getenv("USER") or os.getenv("USERNAME") or "Unknown"
+    name = "Amrit Pandey" 
+    username = os.getenv("USER") or os.getenv("USERNAME") or "amrit"
     server_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S IST")
     top_output = get_top_output()
 
